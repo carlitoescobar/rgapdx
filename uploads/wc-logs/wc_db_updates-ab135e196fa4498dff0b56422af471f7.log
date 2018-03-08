@@ -1,0 +1,25 @@
+02-01-2017 @ 03:07:57 - Queuing 2.5.0 - wc_update_250_currency
+02-01-2017 @ 03:07:57 - Queuing 2.5.0 - wc_update_250_db_version
+02-01-2017 @ 03:07:57 - Queuing 2.6.0 - wc_update_260_options
+02-01-2017 @ 03:07:57 - Queuing 2.6.0 - wc_update_260_termmeta
+02-01-2017 @ 03:07:57 - Queuing 2.6.0 - wc_update_260_zones
+02-01-2017 @ 03:07:57 - Queuing 2.6.0 - wc_update_260_zone_methods
+02-01-2017 @ 03:07:57 - Queuing 2.6.0 - wc_update_260_refunds
+02-01-2017 @ 03:07:57 - Queuing 2.6.0 - wc_update_260_db_version
+02-01-2017 @ 03:07:57 - Running wc_update_250_currency callback
+02-01-2017 @ 03:07:57 - Finished wc_update_250_currency callback
+02-01-2017 @ 03:07:57 - Running wc_update_250_db_version callback
+02-01-2017 @ 03:07:57 - Finished wc_update_250_db_version callback
+02-01-2017 @ 03:07:57 - Running wc_update_260_options callback
+02-01-2017 @ 03:07:57 - Finished wc_update_260_options callback
+02-01-2017 @ 03:07:57 - Running wc_update_260_termmeta callback
+02-01-2017 @ 03:07:57 - Finished wc_update_260_termmeta callback
+02-01-2017 @ 03:07:57 - Running wc_update_260_zones callback
+02-01-2017 @ 03:07:57 - Finished wc_update_260_zones callback
+02-01-2017 @ 03:07:57 - Running wc_update_260_zone_methods callback
+02-01-2017 @ 03:07:57 - Finished wc_update_260_zone_methods callback
+02-01-2017 @ 03:07:57 - Running wc_update_260_refunds callback
+02-01-2017 @ 03:07:57 - Finished wc_update_260_refunds callback
+02-01-2017 @ 03:07:57 - Running wc_update_260_db_version callback
+02-01-2017 @ 03:07:58 - Finished wc_update_260_db_version callback
+02-01-2017 @ 03:07:58 - Data update complete

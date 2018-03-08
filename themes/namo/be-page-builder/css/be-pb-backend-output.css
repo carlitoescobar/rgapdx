@@ -1,0 +1,401 @@
+/* =========================================================================
+                                    SHORTCODES
+   ========================================================================= */
+
+.be-shortcode {
+    margin-bottom: 0px !important;
+}   
+
+.be-notification {
+    margin-bottom: 0px;
+}
+
+.rev_slider_wrapper{
+    z-index: 1;
+}
+
+/* ======================
+   Lists 
+   ====================== */
+.custom-list{
+    list-style: none;
+    padding: 0;
+}
+.custom-list li:before {
+    margin-right: 0.8em !important;
+}
+.custom-list.style-1 li:before {
+    content: '\e70c';
+}  
+
+   
+/* ======================
+   Dropcaps 
+   ====================== */
+
+.dropcap .font-icon:before {
+    width: auto;
+    margin: 0;
+}   
+
+.dropcap-circle, .dropcap-letter, .dropcap-icon,.dropcap-square {
+    float: left;
+    text-transform: uppercase;
+}
+
+.dropcap-circle.small, .dropcap-square.small {
+    margin-top: 3px;
+    font-size: 19px;
+    line-height: 36px;
+    margin-right: 10px;
+    width: 36px;
+    height: 35px;
+    text-align: center;
+}
+
+.dropcap-circle {
+    border-radius: 50%;
+}
+
+.dropcap-letter {
+    font-size: 35px;
+    margin: 10px 10px 0 0;
+} 
+.dropcap-letter.small {
+    font-size: 24px;
+    margin: 10px 15px 0 0;
+}
+
+.dropcap-circle.big, .dropcap-square.big {
+    margin-top: 5px;
+    font-size: 26px;
+    line-height: 47px;
+    width: 47px;
+    height: 47px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.dropcap-circle , .dropcap-square {
+    color:#fff;
+}
+
+
+
+/* ======================
+   Title with Icon  
+   ====================== */
+
+.title-icon.circled {
+    border-radius: 50%;
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+/* Small Icon */
+
+.title-with-icon.small .title-icon {
+    margin-right: 15px !important;
+}
+.title-with-icon.small .title-icon.circled {
+    font-size: 1em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+}
+
+.title-with-icon.small .title-icon.circled:before {
+    width: 1em;
+    margin: 0;
+}
+
+/* Large Image */
+
+.title-with-icon.large {
+    text-align: center;
+}
+.title-with-icon.large .title-icon {
+    font-size: 3em;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.title-with-icon.large .title-icon.circled:before {
+    width: auto;
+    margin: 0;
+}
+
+/* Small Icon Image */
+
+.title-with-icon.image.small .title-image-icon{
+    float: left;
+    margin-right: 15px;
+}
+.title-with-icon.image.small .title-icon-heading{
+    line-height: 40px;
+}
+/* Large Icon Image */
+.title-with-icon.image.large{
+    text-align: center;
+}
+.title-with-icon.image.large .title-image-icon{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.title-icon-heading {
+    margin-bottom: 15px !important;
+}
+
+
+   
+/* ==========================
+    Blockquote
+   ========================== */
+
+blockquote.style-1{
+    background: none;
+    border:none;
+    padding: 0;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 25px;
+}
+blockquote.style-1 .blockquote-icon, blockquote.style-2 .blockquote-icon {
+    float: left;
+}
+blockquote.style-1 .blockquote-icon:before{
+    margin-right: 0.7em !important;
+    font-size: 2em;
+}
+
+
+blockquote.style-3 {
+    text-align: center;
+    background: none;
+    border:none;
+    padding: 0;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 200;
+    color:#555;
+}
+blockquote.style-3 div {
+    margin-bottom: 10px;
+}
+blockquote.style-3 .blockquote-icon:before{
+    margin-right: 0 !important;
+    font-size: 2em;
+}
+blockquote.style-3 p.bq-quote{
+    margin-bottom: 15px;
+}
+blockquote.style-3 .bq-author {
+    font-size: 15px;
+    font-style: normal;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+blockquote.style-3 .bq-company {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+blockquote.style-2{
+    font-size: 15px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 200 !important;
+    color: #555;
+}
+blockquote.style-2 .blockquote-icon:before{
+    margin-right: 0.7em !important;
+    font-size: 1.7em;
+}
+
+/* ======================
+    Call to Action
+======================== */
+
+.call-to-action .button{
+    margin-top: 10px;
+}
+.call-to-action .button, .call-to-action p{
+    margin-bottom: 0;
+}
+
+
+
+/* ======================
+    Our Team
+======================== */
+
+.team-title{
+    margin-bottom: 0px;
+}
+.designation{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.team-social {
+    list-style: none;
+    margin:20px 0 0;
+}
+.team-social li{
+    display: inline;
+}
+.team_icons{
+    font-size: 24px;
+}
+
+
+
+/* ======================
+    Services
+======================== */
+
+.services-wrap, .team-wrap {
+    padding: 20px 15px;
+    text-align: center;
+}
+.services-wrap p.services-description , .team-wrap p{
+    margin-bottom: 5px;
+}
+.services-img.style-1{
+    margin-bottom: 15px;
+}
+.services-title{
+    margin-bottom: 10px;
+}
+
+
+
+/* ======================
+    Buttons
+========================*/
+
+.btn_wrap {
+    display: inline-block;
+    display: inline-table;
+    margin:0 20px 40px 0;
+}
+.be-button , input[type="submit"]{
+    
+    display: inline-block;
+    margin:10px 20px 50px 0;
+    text-decoration: none;  
+    text-shadow:0 1px 1px rgba(0,0,0,0.3);  
+}
+.be-button, .button:hover , .button:visited{
+    color: #fff;
+}
+p .be-button {
+    margin-bottom: 0; 
+}
+.be-button.gradient , input[type="submit"]{
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.be-button.rounded , input[type="submit"]{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.smallbtn {
+    font-size: 13px;
+    line-height: 13px;
+    padding: 8px 15px;
+}
+.mediumbtn {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 10px 17px;
+}
+.largebtn {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 12px 35px;
+}
+.icon-button{
+    padding-left: 10px;
+}
+
+.icon-button:before{
+   margin-right: 1em !important;
+}
+
+
+/* ======================
+    Special Heading
+   ====================== */
+
+.special-heading.divider-bottom{
+    background-position: left bottom;
+    padding-bottom: 10px;
+}
+.special-heading.divider-center{
+    background-position: center;
+    
+}   
+.special-heading{
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    margin-top: 40px;
+   
+}
+.special-h-tag{
+    display: inline;
+    padding: 0 25px 0 0;
+}
+.text-center .special-h-tag{
+    padding-left:25px;
+}
+
+.special-heading.text-center{
+    text-align: center;
+}
+.special-heading:first-child{
+    margin-top: 0;
+}
+
+
+
+/* ======================
+    Notification
+   ====================== */
+
+.success {
+    background: #e9f3d2;
+    color: #92b750;
+    border:1px solid #b8db6f;
+}
+.error {
+    background: #ffe9e9;
+    border: 1px solid #ecb6b6;
+    color:#d04544;
+}
+.warning {
+    background: #fbf6e3;
+    border: 1px solid #ecdda4;
+    color:#cfb306;
+}
+.information {
+    background: #e5f7fd;
+    border: 1px solid #c8ebf7;
+    color:#0f9dcb;
+}
+.success, .error, .warning, .information{
+    padding: 9px 10px !important;
+}

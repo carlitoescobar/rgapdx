@@ -1,0 +1,1 @@
+{"event":"message","time":1516650194,"u":"76","run":"5.77","mem":"103.59","data":"Pong! Server replied."}

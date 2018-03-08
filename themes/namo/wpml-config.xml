@@ -1,0 +1,15 @@
+<wpml-config>
+    <options-panel>
+        <key name="copyright_text" />
+        <key name="google_analytics_code" />
+        <key name="mail_id" />        
+    </options-panel>   
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">revslider</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_categories</taxonomy>
+		<taxonomy translate="1">portfolio_tags</taxonomy>
+	</taxonomies>
+</wpml-config>

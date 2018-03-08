@@ -1,0 +1,69 @@
+/*
+Theme Name: RGA PDX Child
+Description: A RGA PDX theme.
+Version: 1.0
+Author: Carlito
+Author URI: http://www.carlitoescobar.com
+Template: enfold
+*/
+
+
+
+/*Add your own styles here:*/
+
+
+#wdi_feed_0 .wdi_header_user_text {
+    margin-bottom: 22px!important;
+}
+#top #wrap_all .av-inherit-size .av-special-heading-tag {
+    font-size: 1em;
+}
+
+#top #wrap_all .all_colors h1, #top #wrap_all .all_colors h2, #top #wrap_all .all_colors h3, #top #wrap_all .all_colors h4, #top #wrap_all .all_colors h5, #top #wrap_all .all_colors h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+table {
+  background: #FFFFFF;
+  margin-bottom: 1.42857rem;
+  border: solid 1px #DDDDDD;
+  table-layout: auto; }
+  table caption {
+    background: transparent;
+    color: #999;
+    font-size: 1.14286rem;
+    font-weight: bold; }
+  table thead {
+    background: #F5F5F5; }
+    table thead tr th,
+    table thead tr td {
+      padding: 0.57143rem 0.71429rem 0.71429rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #999; }
+  table tfoot {
+    background: #F5F5F5; }
+    table tfoot tr th,
+    table tfoot tr td {
+      padding: 0.57143rem 0.71429rem 0.71429rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #999; }
+  table tr th,
+  table tr td {
+    padding: 0.64286rem 0.71429rem;
+    font-size: 1rem;
+    color: #999;
+    text-align: left; }
+  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: #F9F9F9; }
+  table thead tr th,
+  table tfoot tr th,
+  table tfoot tr td,
+  table tbody tr th,
+  table tbody tr td,
+  table tr td {
+    display: table-cell;
+    line-height: 1.28571rem; }

@@ -1,0 +1,13 @@
+.pattern-images{
+	width:300px;
+	height:805px;
+}
+.pattern-wrapper{
+	display: none;
+}
+.ui-widget-header{
+	font-family: "Tahoma" , Arial !important;
+}
+.ui-dialog-titlebar-close{
+	display: none;
+}

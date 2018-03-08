@@ -1,0 +1,60 @@
+<?php
+/**
+* The template for displaying Search results.
+* 
+*/
+?>
+<?php 
+get_header(); 
+global $be_themes_data;
+global $blog_style;
+$sidebar = $be_themes_data['blog_sidebar'];
+if( empty( $sidebar ) ) {
+	$sidebar = 'right';
+}
+$blog_style = $be_themes_data['blog_style'];
+if( empty( $blog_style ) ) {
+	$blog_style = 'style1';
+}
+$blog_column = $be_themes_data['blog_column'];
+if( empty( $blog_column ) ) {
+	$blog_column = 'three-col';
+}
+if($blog_style == 'style3') {
+	$sidebar = 'no';
+	$blog_style_class = $blog_style.'-blog portfolio-container '.$blog_column;
+} else {
+	$blog_style_class = $blog_style.'-blog';
+}
+get_template_part( 'page-breadcrumb' );
+?>
+<section id="content" class="<?php echo $sidebar; ?>-sidebar-page">
+	<div id="content-wrap" class="be-wrap clearfix"> 
+		<section id="page-content" class="<?php echo ($blog_style == 'style3') ? 'content-no-sidebar' : 'content-single-sidebar'; ?>">
+			<div class="clearfix <?php echo $blog_style_class; ?>">
+				<?php 			
+				if( isset( $_GET['s'] ) && !empty( $_GET['s'] ) ):				
+					if( have_posts() ) : 
+						while ( have_posts() ) : the_post();
+							get_template_part( 'loop' ); 
+						endwhile;
+					else:
+						echo '<p class="inner-content">'.__( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'be-themes' ).'</p>';
+					endif;
+				else:
+					echo '<p class="inner-content"> '.__( 'Sorry, Please enter a search query', 'be-themes' );
+				endif;
+				?>
+			</div>
+			<?php if( isset( $_GET['s'] ) && !empty( $_GET['s'] ) ): ?>
+				<div class="pagination_parent"><?php echo get_be_themes_pagination(); ?> </div> 
+			<?php endif; ?>
+		</section> <?php
+		if($blog_style != 'style3') { ?>
+			<section id="<?php echo $sidebar; ?>-sidebar" class="sidebar-widgets">
+				<?php get_sidebar( $sidebar ); ?>
+			</section> <?php 
+		} ?>
+	</div>
+</section>					
+<?php get_footer(); ?>

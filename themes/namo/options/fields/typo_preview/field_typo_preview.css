@@ -1,0 +1,10 @@
+
+.font-family{
+	width: 150px !important;
+}
+
+iframe{
+	width: 100% !important;
+	min-height: 107px;
+	margin-bottom: 0;
+}
